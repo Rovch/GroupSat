@@ -1,7 +1,6 @@
 var inquirer = require('inquirer');
 var mysql = require("mysql");
-
-
+var sql= require("datainfo.js")
 
 
 inquirer.prompt([ 
