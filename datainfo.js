@@ -9,20 +9,21 @@ var connection = mysql.createConnection({
 
 
 
+// CREATE DATABASE Great_Bay;
+// use Great_Bay;
+
 // CREATE TABLE prodtable (
-//     id INT NOT NULL AUTO_INCREMENT,
-//     item VARCHAR(45) NULL,
-//     bid INTEGER(45) NULL,
-//     buy_now INTEGER(45) NULL,
-//     itm_status VARCHAR(2),
-//     PRIMARY KEY (id)
-//   );
-  
-//   INSERT into prodtable ( item,bid, buy_now,itm_status)
-//   value("bmw",2.5, 50, 'N' );
-  
-//   INSERT into prodtable ( item,bid,buy_now, itm_status)
-//   value("mazda",2, 20 ,'N' );
-  
-  
-//   select * from prodtable;
+//   id INT NOT NULL AUTO_INCREMENT,
+//   item VARCHAR(45) NOT NULL,
+//   bid INTEGER(45) NOT NULL,
+//   buy_now INTEGER(45)NOT NULL,
+//   description VARCHAR(100) NOT NULL,
+//   itm_status VARCHAR(2),
+//   PRIMARY KEY (id)
+// );
+
+// INSERT into prodtable ( item,bid, buy_now,description,itm_status)
+// value("bmw",2.5, 50,"bla bla bla bla ", 'N' );
+
+// INSERT into prodtable ( item,bid,buy_now,description, itm_status)
+// value("mazda",2, 20 ,"bla bla bla bla ",'N' );
